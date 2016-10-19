@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalogue>
+  <album>
+    <name>RapAlbum</name>
+    <artist>The weekend</artist>
+    <year>2016</year>
+    <producer>ARA music</producer>
+    <price>15lv</price>
+    <songs>
+      <song>
+        <title>Hills</title>
+        <duration>4</duration>
+      </song>
+      <song>
+        <title>Often</title>
+        <duration>3</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>PopAlbum</name>
+    <artist>Katty Perry</artist>
+    <year>2014</year>
+    <producer>Sony music</producer>
+    <price>15lv</price>
+    <songs>
+      <song>
+        <title>Kiss girl</title>
+        <duration>4</duration>
+      </song>
+      <song>
+        <title>Roar</title>
+        <duration>3</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>
