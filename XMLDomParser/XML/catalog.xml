@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='catalogue.xslt'?>
+<catalogue>
+  <album>
+    <name>RapAlbum</name>
+    <artist>The weekend</artist>
+    <year>2016</year>
+    <producer>ARA music</producer>
+    <price>25</price>
+    <songs>
+      <song>
+        <title>Hills</title>
+        <duration>40</duration>
+      </song>
+      <song>
+        <title>Often</title>
+        <duration>30</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>PopAlbum</name>
+    <artist>Katty Perry</artist>
+    <year>2014</year>
+    <producer>Sony music</producer>
+    <price>15</price>
+    <songs>
+      <song>
+        <title>Kiss girl</title>
+        <duration>40</duration>
+      </song>
+      <song>
+        <title>Roar</title>
+        <duration>30</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>PopAlbum</name>
+    <artist>Katty Perry</artist>
+    <year>2014</year>
+    <producer>Sony music</producer>
+    <price>15</price>
+    <songs>
+      <song>
+        <title>Kiss girl</title>
+        <duration>40</duration>
+      </song>
+      <song>
+        <title>Roar</title>
+        <duration>30</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>PopAlbum</name>
+    <artist>Katty Perry</artist>
+    <year>2004</year>
+    <producer>Sony music</producer>
+    <price>10</price>
+    <songs>
+      <song>
+        <title>Kiss girl</title>
+        <duration>40</duration>
+      </song>
+      <song>
+        <title>Roar</title>
+        <duration>30</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>
