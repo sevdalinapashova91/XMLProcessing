@@ -3,12 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XML", "XML", "{3B9CD79A-FD38-40DE-AD6F-9AE4B8A40B6B}"
-	ProjectSection(SolutionItems) = preProject
-		catalog.xml = catalog.xml
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLParser", "XMLDomParser\XMLParser.csproj", "{8F5AE49E-966D-42B2-B586-7CD9846764D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonToXML", "PersonToXML\PersonToXML.csproj", "{CFB6209C-5534-46EC-8884-858EFC4784C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryXMLGenerator", "DirectoryXMLGenerator\DirectoryXMLGenerator.csproj", "{A09863CD-0874-47BC-B46E-0A034211DF45}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F5AE49E-966D-42B2-B586-7CD9846764D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5AE49E-966D-42B2-B586-7CD9846764D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5AE49E-966D-42B2-B586-7CD9846764D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5AE49E-966D-42B2-B586-7CD9846764D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB6209C-5534-46EC-8884-858EFC4784C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB6209C-5534-46EC-8884-858EFC4784C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB6209C-5534-46EC-8884-858EFC4784C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB6209C-5534-46EC-8884-858EFC4784C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09863CD-0874-47BC-B46E-0A034211DF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09863CD-0874-47BC-B46E-0A034211DF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09863CD-0874-47BC-B46E-0A034211DF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09863CD-0874-47BC-B46E-0A034211DF45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
